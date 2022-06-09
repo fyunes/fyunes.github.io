@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\assets\style\style.css">
+    <title>Formulario</title>
+</head>
+
+<body class="cuerpo_formulario">
+    <div class="header">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="..\index.html"><img src="..\assets\images\Logo3.png" alt="Logo La Casa Del Alfajor"></a></li>
+                    <li><a href="">Acerca de Nosotros</a></li>
+                    <li><a href="">Productos</a></li>
+                    <li><a href="">Contacto</a></li>
+                    <li><a href="">Dejanos tu cv!</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="todo_formulario">
+        <section>
+            <h1>Formulario de Contacto</h1>
+            <p>Dejanos tus datos y nos pondremos en contacto a la brevedad!</p>
+            <form action="" method="POST">
+                <fieldset>
+                    <legend>Contacto:</legend>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+                    <label for="telefono">Numero de Telefono</label>
+                    <input type="tel" id="telefono" name="telefono" placeholder="341-XXXXXX">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="usuario@email.com">
+                </fieldset>
+                <fieldset>
+                    <legend>Elegi un rango horario de contacto. </legend>
+                    <label>
+                        <input type="radio" name="horario" value="temprano" checked> 08:00 AM a 10:00 AM
+                    </label>
+                    <label>
+                        <input type="radio" name="horario" value="mediodia"> 10:00 AM a 12 PM
+                    </label>
+                    <label>
+                        <input type="radio" name="horario" value="tarde"> 12:00 PM a 14:00 PM
+                    </label>
+                    <label>
+                        <input type="radio" name="horario" value="mediatarde">14:00 PM a 16:00 PM
+                    </label>
+                    <label for="comentarios">Dejanos un mensaje:</label>
+					<textarea id="comentarios" name="comentarios"></textarea>                  
+                </fieldset>
+                <button type="submit">Enviar</button>
+                <button type="reset">Reestablecer</button>
+               
+            </form>
+        </section>
+    </div>
+
+    <div>
+        <footer>
+            <ul>
+                <li><a href="https://www.instagram.com"> <img src="..\assets\images\1instagram-40.png" alt="Instagram"></a>
+                </li>
+                <li><a href="https://www.facebook.com"> <img src="..\assets\images\1facebook-40.png" alt="Facebook"></a></li>
+                <li><a href="http://www.twitter.com"> <img src="..\assets\images\1twitter-40.png" alt="Twitter"></a></li>
+                <li><a href="">Web Developer</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>

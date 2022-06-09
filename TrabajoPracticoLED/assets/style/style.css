@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+/*font-family: 'Indie Flower', cursive;*/
+
+/* estilos de header y navbar */
+.header {
+  background-color: rgb(247, 184, 107);
+  /*background-color: rgba(68, 66, 66, 0.644);*/
+  background-image: url(../images/textura-fondo-beige-paper.png);
+  background-repeat: repeat;
+  border-radius: 5px;
+}
+header {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*estilo de la navbar*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  gap: 4%;
+}
+nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  background-color: brown;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+nav li:first-child a {
+  background-color: transparent;
+}
+nav a:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+nav li {
+  flex-basis: 22%;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+/*logo en el centro del navbar*/
+nav ul {
+  justify-content: space-between;
+}
+nav li:first-child {
+  flex-basis: 22%;
+  margin: 0 auto;
+  order: 2;
+}
+nav li:nth-child(2),
+nav li:nth-child(3) {
+  order: 1;
+}
+nav li:nth-child(4),
+nav li:nth-child(5) {
+  order: 3;
+}
+/* empieza el estilo en el body */
+/*body {
+  /*background-color: #8AA6A3;
+  background-color: #00000077;
+}*/
+h1{
+  font-family: 'Indie Flower', cursive;
+}
+p {
+  display: block;
+  text-align: center;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 500px;
+  /*border: black solid 1px;*/
+}
+.primer_parrafo {
+  background-color: rgb(86, 106, 223);
+  border: black solid 5px;
+  border-radius: 5px;
+  padding: 1%;
+  
+}
+.segundo_parrafo {
+  background-color: rgb(241, 133, 218);
+  border: black solid 5px;
+  border-radius: 5px;
+  padding: 1%;
+}
+.parrafos_descripcion {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+h1 {
+  display: block;
+  text-align: center;
+  /*border: black solid 1px;*/
+  margin-bottom: 0%;
+}
+
+.video_publicidad {
+  display: block;
+  margin: auto;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+  /*border: black solid 1px;*/
+}
+.caption {
+  font-style: italic;
+  display: block;
+  text-align: center;
+  margin: auto;
+  /*border: black solid 1px;*/
+}
+
+footer {    
+  box-sizing: content-box;
+  padding: 2rem;
+  max-width: 0 auto;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  gap: 4%;
+}
+footer li {
+  flex-basis: 22%;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  /*border: black solid 1px;*/
+}
+.todo_formulario {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  background-color: rgb(185, 92, 92);
+  border: black solid 2px;
+  border-radius: 5px;
+  
+}
+.cuerpo_formulario {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../images/alfajoresmaicena.jpg);
+  background-repeat: repeat;
+  
+}
+section {
+  padding: 5rem;
+}
+fieldset {
+  padding: 2rem;
+  border: black solid 2px;
+  margin-bottom: 3rem;
+  border-radius: 5px;
+}
+legend {
+  font-weight: bold;
+  font-size: 1rem;
+  border: black solid 2px;
+  border-radius: 5px;
+}
+label {
+  display: block;
+}
+textarea {
+  height: 10rem;
+  width: 27rem;
+  padding: 1rem;
+}
+button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.3rem;
+  border-radius: 5px;
+  background-color: rgb(248, 107, 107);
+}
+button:hover {
+  background-color: rgb(9, 160, 9);
+  color: white;
+}
